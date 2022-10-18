@@ -1,0 +1,182 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.vendor }}<\/p>",
+            "text_size": "text-size--regular",
+            "text_color": "#6a6a6a",
+            "text_transform": false
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "e81809ad-7ed7-442d-ab93-1d6d7ce6ef23": {
+          "type": "pickup_availability",
+          "settings": {
+            "style": "compact"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_quantity_selector": false,
+            "show_price": false
+          }
+        },
+        "3131f7df-e528-4d14-9c3c-a16e834334af": {
+          "type": "pickup_availability",
+          "settings": {
+            "style": "extended"
+          }
+        },
+        "ebb9aa7c-288c-4b84-be73-9d90ff7bbd57": {
+          "type": "related",
+          "settings": {
+            "title": "Goes well with",
+            "product_list": "{{ product.metafields.custom.goes_well_with.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "e81809ad-7ed7-442d-ab93-1d6d7ce6ef23",
+        "description",
+        "variant_picker",
+        "buy_buttons",
+        "3131f7df-e528-4d14-9c3c-a16e834334af",
+        "ebb9aa7c-288c-4b84-be73-9d90ff7bbd57"
+      ],
+      "settings": {
+        "gallery_style": "slider",
+        "gallery_pagination": "dots",
+        "show_border": false,
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "166413007617a2bb28": {
+      "type": "rich-text",
+      "blocks": {
+        "f5fc0a1d-81f1-4cf8-9218-0c7891c63b38": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Meet the maker<\/p>",
+            "text_size": "regular"
+          }
+        },
+        "16641300762b6fab58-0": {
+          "type": "title",
+          "settings": {
+            "title": "{{ product.vendor }}",
+            "title_size": "h2"
+          }
+        },
+        "16641300762b6fab58-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Lancaster Farm Fresh, we’re always striving to provide the best produce and goods. But doing so is part of our broader mission and values. It’s this work that motivates us most.<\/p><p>- Environmental stewardship<\/p><p>- Famer livelihoods<\/p><p>- Nourishing communities<\/p><p>- Fair, local economies<\/p>",
+            "text_size": "regular"
+          }
+        },
+        "16641300762b6fab58-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "link": "https:\/\/lancasterfarmfresh.com\/mission\/",
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "f5fc0a1d-81f1-4cf8-9218-0c7891c63b38",
+        "16641300762b6fab58-0",
+        "16641300762b6fab58-1",
+        "16641300762b6fab58-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LFFC.jpg",
+        "image_position": "right",
+        "height": "large",
+        "image_crop": true,
+        "is_fullwidth": true,
+        "remove_margin": false,
+        "text_alignment": "horizontal-left",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "2b2ac25f-b8ef-4dd9-a02f-9689070f44c1": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "quick_buy": {
+          "type": "quick_buy",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "price",
+        "title",
+        "2b2ac25f-b8ef-4dd9-a02f-9689070f44c1",
+        "quick_buy"
+      ],
+      "settings": {
+        "heading": "You may also like",
+        "subheading": "",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "products_number": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "166413007617a2bb28",
+    "product-recommendations"
+  ]
+}

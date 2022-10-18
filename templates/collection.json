@@ -1,89 +1,40 @@
 {
   "sections": {
-    "main-collection-banner": {
+    "banner": {
       "type": "main-collection-banner",
       "settings": {
-        "show_collection_description": false,
-        "show_collection_image": false,
-        "color_scheme": "background-1"
       }
     },
-    "165807415879975efa": {
-      "type": "collection-list",
+    "product-grid": {
+      "type": "main-collection-product-grid",
       "blocks": {
-        "165807415889445a52-0": {
-          "type": "featured_collection",
+        "price": {
+          "type": "price",
           "settings": {
-            "collection": "beverage"
           }
         },
-        "165807415889445a52-1": {
-          "type": "featured_collection",
+        "title": {
+          "type": "title",
           "settings": {
-            "collection": "cheese"
           }
         },
-        "165807415889445a52-2": {
-          "type": "featured_collection",
+        "quick_buy": {
+          "type": "quick_buy",
           "settings": {
-            "collection": "lifestyle-gifts"
-          }
-        },
-        "570577cb-d100-438c-839b-820ed7a54d08": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "meat-seafood"
-          }
-        },
-        "2396e51b-0f94-4d15-9803-7363a0988f09": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "produce"
           }
         }
       },
       "block_order": [
-        "165807415889445a52-0",
-        "165807415889445a52-1",
-        "165807415889445a52-2",
-        "570577cb-d100-438c-839b-820ed7a54d08",
-        "2396e51b-0f94-4d15-9803-7363a0988f09"
+        "price",
+        "title",
+        "quick_buy"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 5,
-        "color_scheme": "background-2",
-        "show_view_all": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 32,
-        "padding_bottom": 32
-      }
-    },
-    "main-product-grid": {
-      "type": "main-collection-product-grid",
-      "settings": {
-        "products_per_page": 20,
-        "columns_desktop": 4,
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "enable_filtering": true,
-        "filter_type": "horizontal",
-        "enable_sorting": true,
-        "columns_mobile": "2",
-        "padding_top": 0,
-        "padding_bottom": 24
       }
     }
   },
   "order": [
-    "main-collection-banner",
-    "165807415879975efa",
-    "main-product-grid"
+    "banner",
+    "product-grid"
   ]
 }

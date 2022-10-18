@@ -1,0 +1,255 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.vendor }}<\/p>",
+            "text_size": "text-size--regular",
+            "text_color": "#6a6a6a",
+            "text_transform": false
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "e81809ad-7ed7-442d-ab93-1d6d7ce6ef23": {
+          "type": "pickup_availability",
+          "settings": {
+            "style": "compact"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "92ae2282-6800-4763-9750-c81486e5c205": {
+          "type": "icons",
+          "settings": {
+            "title": "",
+            "icon_1_image": "shopify:\/\/shop_images\/icon-organic_939d46e2-7e1b-48e1-aa93-ddb137c08c23.png",
+            "icon_1_label": "Organic Ingredients",
+            "icon_2_image": "shopify:\/\/shop_images\/icon-vegan_6896446f-fe0d-486f-943d-9b6430aeefd8.png",
+            "icon_2_label": "Vegan",
+            "icon_3_image": "shopify:\/\/shop_images\/icon-gmo-free.png",
+            "icon_3_label": "GMO Free",
+            "icon_4_image": "shopify:\/\/shop_images\/icon-gluten-free.png",
+            "icon_4_label": "Gluten Free",
+            "icon_5_image": "shopify:\/\/shop_images\/icon-award-winning_81922bd5-5cdb-4eed-8970-2f0f93b02ada.png",
+            "icon_5_label": "Award winning",
+            "icon_6_label": ""
+          }
+        },
+        "b97899e9-7cee-450d-bedf-175e5fe8d6cd": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ingredients",
+            "content": "<p>{{ product.metafields.custom.ingredients | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "3fa8302b-0e25-46d9-904d-327249e96228": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Nutritional Facts",
+            "content": "<p>{{ product.metafields.custom.nutritional_info | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_quantity_selector": false,
+            "show_price": false
+          }
+        },
+        "3131f7df-e528-4d14-9c3c-a16e834334af": {
+          "type": "pickup_availability",
+          "settings": {
+            "style": "extended"
+          }
+        },
+        "ebb9aa7c-288c-4b84-be73-9d90ff7bbd57": {
+          "type": "related",
+          "settings": {
+            "title": "Goes well with",
+            "product_list": "{{ product.metafields.custom.goes_well_with.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "e81809ad-7ed7-442d-ab93-1d6d7ce6ef23",
+        "description",
+        "92ae2282-6800-4763-9750-c81486e5c205",
+        "b97899e9-7cee-450d-bedf-175e5fe8d6cd",
+        "3fa8302b-0e25-46d9-904d-327249e96228",
+        "variant_picker",
+        "buy_buttons",
+        "3131f7df-e528-4d14-9c3c-a16e834334af",
+        "ebb9aa7c-288c-4b84-be73-9d90ff7bbd57"
+      ],
+      "settings": {
+        "gallery_style": "slider",
+        "gallery_pagination": "dots",
+        "show_border": false,
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "16641298129eb50aa3": {
+      "type": "rich-text",
+      "blocks": {
+        "16641298128ce64c64-0": {
+          "type": "title",
+          "settings": {
+            "title": "Go with your gut!®",
+            "title_size": "h2"
+          }
+        },
+        "16641298128ce64c64-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A Probiotic-rich, Nutrient-dense, Living Food • Traditionally Fermented in the Brine Created by the Vegetables • No Heat and No Vinegar Added • We Support Our Local Foodshed • Hex Protects • Feed Your Microbiome<\/p>",
+            "text_size": "large"
+          }
+        }
+      },
+      "block_order": [
+        "16641298128ce64c64-0",
+        "16641298128ce64c64-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/278341227_241463078145767_2355988852278869161_n.jpg",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "is_fullwidth": false,
+        "remove_margin": false,
+        "text_alignment": "horizontal-left",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false
+      }
+    },
+    "166413007617a2bb28": {
+      "type": "rich-text",
+      "blocks": {
+        "f5fc0a1d-81f1-4cf8-9218-0c7891c63b38": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Meet the maker<\/p>",
+            "text_size": "regular"
+          }
+        },
+        "16641300762b6fab58-0": {
+          "type": "title",
+          "settings": {
+            "title": "HEX Ferments",
+            "title_size": "h2"
+          }
+        },
+        "16641300762b6fab58-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>HEX Ferments are Maryland-based food alchemists, dedicated to sourcing from <em>local and organic farmers <\/em>using<em> regenerative farming practices<\/em>. <\/p><p>- Certified <a href=\"https:\/\/www.bcorporation.net\/en-us\" target=\"_blank\" title=\"B Lab \/ B Corporation \/ HEX Ferments\">B-Corporation®<\/a> <\/p><p>- Made in a <a href=\"https:\/\/www.arcadia.com\/\" target=\"_blank\" title=\"Arcadia Power\">100% renewable energy facililty<\/a><\/p><p>- We don't ferment in plastic<\/p><p>- We work with and give back to organizations that support food access, farming and food education programs<\/p>",
+            "text_size": "regular"
+          }
+        },
+        "16641300762b6fab58-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "link": "https:\/\/www.hexferments.com\/pages\/about-us",
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "f5fc0a1d-81f1-4cf8-9218-0c7891c63b38",
+        "16641300762b6fab58-0",
+        "16641300762b6fab58-1",
+        "16641300762b6fab58-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/hex-ferments_750xx1200-1600-0-0.jpg",
+        "image_position": "right",
+        "height": "large",
+        "image_crop": true,
+        "is_fullwidth": true,
+        "remove_margin": false,
+        "text_alignment": "horizontal-left",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "2b2ac25f-b8ef-4dd9-a02f-9689070f44c1": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "quick_buy": {
+          "type": "quick_buy",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "price",
+        "title",
+        "2b2ac25f-b8ef-4dd9-a02f-9689070f44c1",
+        "quick_buy"
+      ],
+      "settings": {
+        "heading": "You may also like",
+        "subheading": "",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "products_number": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16641298129eb50aa3",
+    "166413007617a2bb28",
+    "product-recommendations"
+  ]
+}

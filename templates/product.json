@@ -6,218 +6,116 @@
         "vendor": {
           "type": "text",
           "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
+            "text": "<p>{{ product.vendor }}<\/p>",
+            "text_size": "text-size--regular",
+            "text_color": "#6a6a6a",
+            "text_transform": false
           }
         },
         "title": {
           "type": "title",
-          "settings": {}
-        },
-        "caption": {
-          "type": "text",
           "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
           }
         },
         "price": {
           "type": "price",
-          "settings": {}
-        },
-        "variant_picker": {
-          "type": "variant_picker",
           "settings": {
-            "picker_type": "button"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
+        "e81809ad-7ed7-442d-ab93-1d6d7ce6ef23": {
+          "type": "pickup_availability",
           "settings": {
-            "show_dynamic_checkout": true
+            "style": "compact"
           }
         },
         "description": {
           "type": "description",
-          "settings": {}
-        },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
           "settings": {
-            "heading": "Ingredients",
-            "icon": "carrot",
-            "content": "<p>Napa Cabbage,* Daikon Radish,* Carrots,* Garlic,* Ginger,* Onions,* Red Pepper, Chickpea Miso,* Rice Flour,* Fair Trade Cane Sugar,* Unrefined Sea Salt.<\/p><p><em>*Organic<\/em><\/p>",
-            "page": ""
           }
         },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
           "settings": {
-            "heading": "Nutritional info",
-            "icon": "heart",
-            "content": "<p><strong>Nutrition Facts<\/strong>  Servings per container: 14, <strong>Serv. size: 2 tbsp (30g)<\/strong>, Amount per serving: <strong>Calories 10, Total Fat 0g (0% DV)<\/strong>, Sat. Fat 0g (0% DV), Trans Fat 0g, <strong>Cholest.<\/strong> 0mg (0% DV), <strong>Sodium<\/strong> 230mg (10% DV), <strong>Total Carb.<\/strong> 2g (1% DV), Dietary Fiber &lt;1g (4% DV), Total Sugars &lt;1g (Incl. &lt;1g Added Sugars, 0% DV), <strong>Protein<\/strong> &lt;1g, Vit. C (25% DV) Vit. D (0% DV), Calcium (0% DV), Iron (0% DV), Potas. (2% DV)<br\/><\/p><p><em>*The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily diet. 2,000 calories a day is used for general nutrition advice.<\/em><\/p>",
-            "page": ""
+            "variants_style": "radio",
+            "show_quantities": "no"
           }
         },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
+        "buy_buttons": {
+          "type": "buy_buttons",
           "settings": {
-            "heading": "Shipping",
-            "icon": "truck",
-            "content": "",
-            "page": ""
+            "show_dynamic_checkout": false,
+            "show_quantity_selector": false,
+            "show_price": false
           }
         },
-        "share": {
-          "type": "share",
+        "3131f7df-e528-4d14-9c3c-a16e834334af": {
+          "type": "pickup_availability",
           "settings": {
-            "share_label": "Share"
+            "style": "extended"
+          }
+        },
+        "ebb9aa7c-288c-4b84-be73-9d90ff7bbd57": {
+          "type": "related",
+          "settings": {
+            "title": "Goes well with",
+            "product_list": "{{ product.metafields.custom.goes_well_with.value }}"
           }
         }
       },
       "block_order": [
         "vendor",
         "title",
-        "caption",
         "price",
-        "variant_picker",
-        "quantity_selector",
-        "buy_buttons",
+        "e81809ad-7ed7-442d-ab93-1d6d7ce6ef23",
         "description",
-        "collapsible-row-0",
-        "collapsible-row-1",
-        "collapsible-row-2",
-        "share"
+        "variant_picker",
+        "buy_buttons",
+        "3131f7df-e528-4d14-9c3c-a16e834334af",
+        "ebb9aa7c-288c-4b84-be73-9d90ff7bbd57"
       ],
       "settings": {
-        "enable_sticky_info": true,
-        "gallery_layout": "thumbnail_slider",
-        "media_size": "small",
-        "mobile_thumbnails": "hide",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 16
-      }
-    },
-    "165807276287f9cbd8": {
-      "type": "multicolumn",
-      "blocks": {
-        "1658072762856d0ed3-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Illustrations-4.png",
-            "title": "",
-            "text": "<p>MADE in a 100% RENEWABLE ENERGY FACILITY<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "1658072762856d0ed3-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Illustrations-3.png",
-            "title": "",
-            "text": "<p>We work with and give back to organizations that support FOOD ACCESS, FARMING & FOOD EDUCATION programs<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "1658072762856d0ed3-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Illustrations-5.png",
-            "title": "",
-            "text": "<p>WE DON'T FERMENT in PLASTIC<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1658072762856d0ed3-0",
-        "1658072762856d0ed3-1",
-        "1658072762856d0ed3-2"
-      ],
-      "settings": {
-        "title": "About HEX Ferments",
-        "heading_size": "h2",
-        "image_width": "third",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
-    "image-with-text": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Go with your gut!®",
-            "heading_size": "h2"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>A PROBIOTIC-RICH, NUTRIENT-DENSE, LIVING FOOD • TRADITIONALLY FERMENTED in the BRINE CREATED by the VEGETABLES • NO HEAT and NO VINEGAR ADDED • WE SUPPORT our LOCAL FOODSHED • HEX PROTECTS • FEED your MICROBIOME<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/278341227_241463078145767_2355988852278869161_n.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 36
+        "gallery_style": "slider",
+        "gallery_pagination": "dots",
+        "show_border": false,
+        "enable_zoom": true,
+        "enable_video_looping": false
       }
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "quick_buy": {
+          "type": "quick_buy",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "price",
+        "title",
+        "quick_buy"
+      ],
       "settings": {
         "heading": "You may also like",
-        "heading_size": "h2",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 32,
-        "padding_bottom": 64
+        "subheading": "",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "products_number": 4
       }
     }
   },
   "order": [
     "main",
-    "165807276287f9cbd8",
-    "image-with-text",
     "product-recommendations"
   ]
 }
